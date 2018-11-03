@@ -1,9 +1,3 @@
-import numpy as np
-from sys import stdin
-from copy import deepcopy
-from operator import xor
-import time
-
 class Grundygame:
 
     def __init__(self,board):
@@ -50,12 +44,19 @@ class Grundygame:
 
     def stateWinning(self,state):
 
-        print(str(state in self.wins))
+        return state in self.wins
+
 def play():
   board = input("Enter board size").split()
   board = [int(x) for x in board]
   grundy = Grundygame(board)
-  grundy.stateWinning((2,2,1,1,1))
-  grundy.stateWinning(tuple(board))
-
+  winLose = ["Lose","Win"]
+  win = winLose[int(grundy.stateWinning(tuple(board)))]
+  print("The player to move at the start will %s" % win)
+  resp = None
+  while(resp != "exit"):
+      board =  input("Which board state would you like to check?(exit to exit)").split()
+      board = [int(x) for x in board]
+      win = winLose[int(grundy.stateWinning(tuple(board)))]
+      print("The player to move at this state will %s" % win)
 play()
