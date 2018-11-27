@@ -1,5 +1,6 @@
 # GrundPy
 A simple recursive solver with memoization for Grundy's Game. 
+You can try me out here:[HERE](https://repl.it/@OwenMcLeod1/PoliticalApprehensiveTheories)
 # The game
 Grundy's game is a two-player mathematical game of strategy. The starting configuration is a single heap of objects, and the two players take turn splitting a single heap into two heaps of different sizes. The game ends when only heaps of size two and smaller remain, none of which can be split unequally. The game is usually played as a normal play game, which means that the last person who can make an allowed move wins. 
 # Illustration
@@ -13,7 +14,6 @@ Now player 2 has to split the 4-heap into 3 + 1, and player 1 subsequently split
   player 1: 3+1+2+1+1 → 2+1+1+2+1+1
   player 2 has no moves left and loses
 # Future directions:
-* Compare perfomance of Hayward's nim solvers to my Grundys game solver using the Sprague-Grundy theorem which states that there is an ismorphic mapping from a Grundy's Game game is equivalent to a nimber ** (this extends to ANY impartial game under the normal play convention) ** .  state to a Nim Heap game state
-
+* Compare perfomance of Hayward's nim solvers to my Grundys game solver using the Sprague-Grundy theorem which states that there is an ismorphic mapping from a Grundy's Game game to a nimber (this extends to ANY impartial game under the normal play convention). 
 * Make a faster solver that just maps to the corresponding Nim state and utilize the nim-sum 
 ## Credit to wikipedia for the game description and illustration sections. 
