@@ -13,7 +13,7 @@ Now player 2 has to split the 4-heap into 3 + 1, and player 1 subsequently split
   player 1: 3+1+2+1+1 → 2+1+1+2+1+1
   player 2 has no moves left and loses
 # Future directions:
-* Compare perfomance of Hayward's nim solvers to my Grundys game solver using the Sprague-Grundy theorem which states that there is an ismorphic mapping from a Grundy's Game game is equivalent to a nimber **(this extends to ANY impartial game under the normal play convention) **.  state to a Nim Heap game state
+* Compare perfomance of Hayward's nim solvers to my Grundys game solver using the Sprague-Grundy theorem which states that there is an ismorphic mapping from a Grundy's Game game is equivalent to a nimber ** (this extends to ANY impartial game under the normal play convention) ** .  state to a Nim Heap game state
 
 * Make a faster solver that just maps to the corresponding Nim state and utilize the nim-sum 
 ## Credit to wikipedia for the game description and illustration sections. 
