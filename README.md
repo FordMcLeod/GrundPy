@@ -1,6 +1,7 @@
 # GrundPy
 A simple recursive solver with memoization for Grundy's Game. 
-You can try me out here:[HERE](https://repl.it/@OwenMcLeod1/PoliticalApprehensiveTheories)
+
+You can try the solver out [HERE](https://repl.it/@OwenMcLeod1/PoliticalApprehensiveTheories)
 # The game
 Grundy's game is a two-player mathematical game of strategy. The starting configuration is a single heap of objects, and the two players take turn splitting a single heap into two heaps of different sizes. The game ends when only heaps of size two and smaller remain, none of which can be split unequally. The game is usually played as a normal play game, which means that the last person who can make an allowed move wins. 
 # Illustration
