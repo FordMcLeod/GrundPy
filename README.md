@@ -17,4 +17,7 @@ Now player 2 has to split the 4-heap into 3 + 1, and player 1 subsequently split
 # Future directions:
 * Compare perfomance of Hayward's nim solvers to my Grundys game solver using the Sprague-Grundy theorem which states that there is an ismorphic mapping from a Grundy's Game game to a nimber (this extends to ANY impartial game under the normal play convention). 
 * Make a faster solver that just maps to the corresponding Nim state and utilize the nim-sum 
-## Credit to wikipedia for the game description and illustration sections. 
+
+
+
+_Credit to wikipedia for the game descriptions and illustration sections. _
